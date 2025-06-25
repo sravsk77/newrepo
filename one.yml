@@ -1,0 +1,9 @@
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - script: echo "🎉 Hello, this is your very first pipeline running!"
+    displayName: 'Greet the world'
